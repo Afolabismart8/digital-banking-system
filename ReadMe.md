@@ -123,9 +123,9 @@ JWT authentication and middleware flow
 MongoDB schema design and persistence
 Debugging production-level backend issues
 Separation of concerns in API architecture
+
 🚀 Future Improvements
 Transaction rollback system
-Role-based access control (RBAC)
 Audit logging dashboard
 Microservices architecture
 Rate limiting & security hardening

@@ -10,7 +10,7 @@ const adminOnly = (req, res, next) => {
     }
 
     if (adminKey !== process.env.ADMIN_KEY) {
-        return res.status(403).json({
+        return res.status(401).json({
             status: "ERROR",
             message: "Access denied: Admin only endpoint"
         });

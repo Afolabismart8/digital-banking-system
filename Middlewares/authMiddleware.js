@@ -21,7 +21,7 @@ const getNIBSSApi = (req, res, next) => {
         }
         req.nibssApi = getAuthenticatedApi(token);
         next();
-
+        
 
     } catch (error) {
         console.error('Auth middleware error:', error.message || error);

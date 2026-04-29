@@ -20,4 +20,4 @@ const getAuthenticatedApi = (token) => {
     });
 };
 
-module.exports = { nibssApi, getAuthenticatedApi };
+module.exports = { nibssApi, getAuthenticatedApi};
